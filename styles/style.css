@@ -5,6 +5,12 @@ body{
      font-family: 'Poppins', sans-serif;
      margin: 0;
 }
+/* transiton style */
+.copa-title:hover{
+     transform: rotate(180deg);
+     font-size: 45px;
+     color: gold;
+}
 /* Header Style */
 .copa-container{
      background-color: rgb(18, 101, 209);
@@ -23,6 +29,7 @@ body{
 .copa-title{
      font-size: 65px;
      color: white;
+     transition: transform 2s;
 }
 .copa-banner img{
      Width: 556.01px;
